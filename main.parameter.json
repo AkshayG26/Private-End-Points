@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "eastus"
+    },
+    "storageAccountName": {
+      "value": "stprivatedev002"
+    },
+    "virtualMachineName":{
+      "value": "vmprivatedev002"
+    },
+    "computerName": {
+      "value": "privatevm"
+    },
+    "adminUsername":{
+      "value": "privatevm"
+    },
+    "adminPassword":{
+      "value": "@AkshayGullapalli26"
+    },
+    "vnetName":{
+      "value": "vnetprivatedev002"
+    },
+    "nicName":{
+      "value": "nicprivatedev002"
+    },
+    "privateEndpointName":{
+      "value": "plprivatedev002"
+    }
+  }
+}
