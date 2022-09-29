@@ -3,31 +3,25 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "location": {
-      "value": "eastus"
+      "value": "centralindia"
     },
     "storageAccountName": {
-      "value": "stprivatedev002"
-    },
-    "virtualMachineName":{
-      "value": "vmprivatedev002"
-    },
-    "computerName": {
-      "value": "privatevm"
-    },
-    "adminUsername":{
-      "value": "privatevm"
-    },
-    "adminPassword":{
-      "value": "@AkshayGullapalli26"
+      "value": "stprivatedev300"
     },
     "vnetName":{
-      "value": "vnetprivatedev002"
+      "value": "vnetprivatedev300"
+    },
+    "addressPrefix":{
+      "value": "10.1.0.0/16"
+    },
+    "subnetAddressPrefix": {
+      "value" : "10.1.0.0/24"
+    },
+    "subnetName1": {
+      "value" : "subnet-2"
     },
     "nicName":{
-      "value": "nicprivatedev002"
-    },
-    "privateEndpointName":{
-      "value": "plprivatedev002"
+      "value": "nicprivatedev300"
     }
   }
 }

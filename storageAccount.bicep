@@ -1,5 +1,6 @@
 targetScope = 'resourceGroup'
 param location string
+@description('specify the name of storage account')
 param storageAccountName string
 
 resource storageAccount 'Microsoft.Storage/storageAccounts@2022-05-01' = {
@@ -14,5 +15,3 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-05-01' = {
     accessTier: 'Hot'
   }
 }
-
-

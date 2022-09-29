@@ -17,6 +17,17 @@ param adminPassword string
 @description('specifies nicID')
 param nicId string 
 
+@description('specify the name of nic name')
+param nicName string
+
+resource vmnic 'Microsoft.Network/networkInterfaces@2022-01-01' = {
+  name: '${nicName}'
+   properties: {
+    
+   }
+}
+
+
 resource virtualMachine 'Microsoft.Compute/virtualMachines@2020-12-01' = {
   name: virtualMachineName
   location: location
